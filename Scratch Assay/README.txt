@@ -5,7 +5,7 @@ For more details on model, refer to the main paper or to Johnston et al. (2014).
 
 The 'run.m' file contains the code required to run BSL, uBSL and ABC for this example.
 
-The function 'simulate_mex.c' uses the function 'mt19937ar.c' to get random numbers. This code can be downloaded from http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/CODES/mt19937ar.c .
+The function 'simulate_mex.c' uses the function 'mt19937ar.c' to get random numbers. This code can be downloaded from https://github.com/clibs/mt19937ar .
 
 To compile 'simulate_mex.c' on a Windows machine, use the line
 mex simulate_mex.c mt19937ar.c
