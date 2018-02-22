@@ -1,6 +1,6 @@
 %% Performing BSL, uBSL and ABC
 
-% The function 'mt19937ar.c' is required to run the below code. This code can be downloaded from http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/CODES/mt19937ar.c .
+% The function 'mt19937ar.c' is required to run the below code. This code can be downloaded from https://github.com/clibs/mt19937ar .
 
 %To compile 'simulate_mex.c' on a Windows machine, use the line
 mex simulate_mex.c mt19937ar.c
